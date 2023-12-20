@@ -54,7 +54,7 @@ DIALECT=
         <tr>
             <td><code>STATUS</code></td>
             <td>The status of the environment where the app is running.</td>
-            <td><code>development</code>, <code>production</code>, <code>test</code></td>
+            <td><code>development</code>, <code>production</code></td>
         </tr>
         <tr>
             <td><code>DEV_PORT</code></td>
