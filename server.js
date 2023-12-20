@@ -26,7 +26,7 @@ app.get("/api/data", (req, res) => {
 });
 
 // Verify that the PORT environment variable has been set
-const PORT = process.env.PORT;
+const PORT = process.env.STATUS === 'development' ? process.env.DEV_PORT : process.env.PROD_PORT;
 if (!PORT) {
     console.error('Error: The PORT environment variable is not set.');
     process.exit(1); // Exit the process if PORT is not defined

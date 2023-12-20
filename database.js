@@ -2,7 +2,7 @@ require('dotenv').config();
 const mysql = require('mysql2');
 
 // Check environment variables
-const requiredEnvVars = ['DB_HOST', 'DB_USER', 'DB_PASSWORD', 'DB_NAME', 'PORT'];
+const requiredEnvVars = ['DB_HOST', 'DB_USER', 'DB_PASSWORD', 'DB_NAME', 'DEV_PORT', 'PROD_PORT'];
 requiredEnvVars.forEach((envVar) => {
   if (!process.env[envVar]) {
     console.error(`Error: The environment variable ${envVar} is missing.`);
