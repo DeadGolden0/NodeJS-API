@@ -24,7 +24,6 @@ Setup and configure the **NodeJS Environement (ENV)**.
 > You can run the all command with `sudo` if it requires access to restricted files or elevated privileges. Just prepend `sudo` to the command.
 
 ```bash
-cd NodeJS-API
 mv .env.default .env
 nano .env
 ```
