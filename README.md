@@ -1,6 +1,6 @@
 ## 🌐 NodeJS API
 
-Welcome to the **NodeJS API** repository! This repo host private code for Petrus App Project.
+Welcome to the **NodeJS API** repository!
 
 ## 📋 Prerequisites
 
