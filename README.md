@@ -4,9 +4,10 @@ Welcome to the **NodeJS API** repository! This repo host private code for Petrus
 
 ## 📋 Prerequisites
 
-- NodeJS > 20.X.X
-- NPM
+- VPS or dedicated Server
 - MySQL Server
+- NodeJS
+- NPM
 
 ## ⚙️ Installation
 
@@ -65,6 +66,9 @@ Replace ``YourSelectedPort`` with the port you have previously configured in the
 ```bash
 node server.js
 ```
+
+If everything has been set up correctly, navigate to ``https://example.com/api`` and the message ``"API is working"`` will appear on the page.
+
 
 ## 🤝 Contributing
 
