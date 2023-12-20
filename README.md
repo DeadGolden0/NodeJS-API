@@ -30,16 +30,73 @@ nano .env
 ```
 
 ```bash
-# Global Settings
-NODE_ENV= 
-PORT=
+# Global Env Settings
+STATUS= 
+DEV_PORT=
+PROD_PORT=
 
-# MySQL Server
+# Database Settings
 DB_HOST=
 DB_USER=
 DB_PASSWORD=
 DB_NAME=
+DIALECT=
 ```
+
+<table>
+    <thead>
+        <tr>
+            <th>Variable</th>
+            <th>Description</th>
+            <th>Options</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>STATUS</code></td>
+            <td>The status of the environment where the app is running.</td>
+            <td><code>development</code>, <code>production</code>, <code>test</code></td>
+        </tr>
+        <tr>
+            <td><code>DEV_PORT</code></td>
+            <td>The port number the app will use in development environment.</td>
+            <td>Any valid port number, e.g., <code>3000</code></td>
+        </tr>
+        <tr>
+            <td><code>PROD_PORT</code></td>
+            <td>The port number the app will use in production environment.</td>
+            <td>Any valid port number, e.g., <code>8080</code></td>
+        </tr>
+        <tr>
+            <td><code>DB_HOST</code></td>
+            <td>The hostname for the database server.</td>
+            <td>Usually <code>localhost</code> or a remote address</td>
+        </tr>
+        <tr>
+            <td><code>DB_USER</code></td>
+            <td>The username for database access.</td>
+            <td>e.g., <code>user123</code></td>
+        </tr>
+        <tr>
+            <td><code>DB_PASSWORD</code></td>
+            <td>The password for database access.</td>
+            <td>e.g., <code>pass123!</code></td>
+        </tr>
+        <tr>
+            <td><code>DB_NAME</code></td>
+            <td>The name of the database to connect to.</td>
+            <td>e.g., <code>mydatabase</code></td>
+        </tr>
+        <tr>
+            <td><code>DIALECT</code></td>
+            <td>The type of database you are connecting to.</td>
+            <td>e.g., <code>mysql</code>, <code>postgres</code>, <code>sqlite</code></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 
 Next, you need to configure **NGINX/Apache Server** for **Reverse Proxy**
 
