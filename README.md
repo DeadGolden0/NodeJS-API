@@ -21,7 +21,7 @@ npm install
 Setup and configure the **NodeJS Environement (ENV)**.
 
 > [!TIP]
-> You can run the all command with `sudo` if it requires access to restricted files or elevated privileges. Just prepend `sudo` to the command.
+> You can run all the command with `sudo` if it requires access to restricted files or elevated privileges. Just prepend `sudo` to the command.
 
 ```bash
 mv .env.default .env
